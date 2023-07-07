@@ -1,2 +1,2 @@
 # reborn
-📌 Static site generator based on MarkDown markup
+📌 Static site generator based on MarkDown markup (Базовая документация)
