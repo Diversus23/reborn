@@ -1,0 +1,10 @@
+﻿
+url: localhost/example
+branding:
+  title: Пример базы знаний
+  label: Docs
+links:
+ - text: Дополнительная документация
+   link: https://softonit.ru/FAQ/
+footer:
+copyright: "&copy; Copyright {{текущийгод}}. Все права защищены.
