@@ -4,7 +4,7 @@ icon: home
 ---
 ![](/static/retype-hero.png)
 
-# Добро пожаловать в БАЗУ ЗНАНИЙ
+# Добро пожаловать в REBORN
 
 [Reborn](https://retype.com/) — это ✨ сверхвысокопроизводительный ✨ генератор, который создает сайт на основе простых текстовых файлов. Сосредоточьтесь на своем письме, пока Reborn строит все остальное.
 
@@ -53,42 +53,42 @@ retype start
 
 ---
 
-## Features
+## Возможности
 
-#### :icon-shield-check: It just works
+#### :icon-shield-check: Работает просто
 
-Retype has been built to be easy to use and should _"just work"_ out-of-the-box without any special configuration or troublesome setup.
+Reborn создан так, чтобы использовать его было легко и он должен "просто работать" без особых настроек или проблемной установки.
 
-#### :icon-zap: Lightning fast
+#### :icon-zap: Быстрый как молния
 
-Don't blink. Retype was built for speed.
+Не моргайте. Reborn создан для скорости.
 
-#### :icon-gear: Easy install
+#### :icon-gear: Простая установка
 
-[Installation](/guides/getting-started.md) takes only a few seconds. Then all you need is one Markdown **.md** file which Retype will start building a new website from.
+[Установка](/guides/getting-started.md) займет всего несколько секунд. Вам потребуется только один файл Markdown **.md** из которого Reborn начнет создание нового веб-сайта.
 
-#### :icon-plug: Powerful
+#### :icon-plug: Мощность
 
-Project level [configuration](/configuration/project.md) using **retype.yml** unlocks many more features and customization.
+Уровень проекта [configuration](/configuration/project.md) с использованием **retype.yml** разблокирует множество дополнительных функций и настроек.
 
-#### :icon-pencil: Simple formatting
+#### :icon-pencil: Простое форматирование
 
-Pages are [formatted](/guides/formatting.md) using Markdown syntax and Retype [components](/components/readme.md). Page level [configuration](/configuration/page.md) is available, such as setting a custom navigation [`label`](/configuration/page.md#label) or [`icon`](/configuration/page.md#icon).
+Страницы [форматируются](/guides/formatting.md) с использованием синтаксиса Markdown и [компонентов](/components/readme.md) Retype. Доступна [конфигурация](/configuration/page.md) страницы, такая как установка пользовательской навигации [`label`](/configuration/page.md#label) или [`icon`](/configuration/page.md#icon).
 
-#### :icon-sync: Live reload
+#### :icon-sync: Обновление в режиме реального времени
 
-If a change is detected, such as editing and saving an **.md** file, your Retype website will be updated almost instantly within the browser.
+Если изменение обнаружено, например, редактирование и сохранение файла **.md**, ваш веб-сайт Reborn будет обновлен практически мгновенно в браузере.
 
-#### :icon-server: Host anywhere
+#### :icon-server: Размещайте в любом месте
 
-Retype generates a basic HTML website that you can host on any web hosting service, or for free using [GitHub Pages](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site). No special server-side software or external dependencies are required. You can host your Retype site as a public website or as a private website inside your organization.
+Reborn генерирует базовый HTML-сайт, который вы можете разместить на любой веб-хостинговой службе или бесплатно с использованием [GitHub Pages](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site). Не требуется специальное серверное программное обеспечение или внешние зависимости. Вы можете разместить свой сайт Retype как публичный веб-сайт или как частный сайт в вашей организации.
 
 ---
 
-## Support
+## Поддержка
 
-Do you have a technical support question, found a defect, or would like to make a feature request? Please create an [issue](https://github.com/retypeapp/retype/issues) and we will investigate right away.
+Если у вас есть вопрос по технической поддержке, найдена ошибка или вы хотите сделать запрос на новую функцию, пожалуйста, создайте [запрос](https://github.com/retypeapp/retype/issues), и мы немедленно рассмотрим его.
 
-Do you have a general inquiry? Please feel free to contact us at hello@retype.com.
+У вас есть общий вопрос? Пожалуйста, не стесняйтесь связаться с нами по адресу hello@retype.com.
 
-We :heart: feedback.
+Мы :heart: обратную связь.
