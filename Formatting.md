@@ -16,17 +16,17 @@ tags: [guide]
 
 ---
 
-## Quick start
+## Быстрый старт
 
-The following sample demonstrates a very basic `sample.md` page sample with a page title and one paragraph.
+Приведенный ниже пример демонстрирует очень простую страницу `sample.md` с заголовком и одним абзацем.
 
 ```md
-# Page title here
+# Заголовок страницы здесь
 
-This is a paragraph.
+Это абзац.
 ```
 
-We can build on the above sample by adding more content and formatting, such as **bold** text, images, and lists.
+Мы можем развить предыдущий пример, добавив больше контента и форматирования, такие как жирный **текст**, изображения и списки.
 
 ```md
 # Page title here
@@ -41,36 +41,36 @@ Another paragraph with **bold**, _italic_, ~~strikethrough~~, and `code` samples
 
 ---
 
-## Lists
+## Списки
 
-- First item
-- Second item
-- Third item
+- Первый элемент
+- Второй элемент
+- Третий элемент
 
-1. First item
-2. Second item
-3. Third item
+1. Первый элемент
+2. Второй элемент
+3. Третий элемент
 
-> "Cool! This is a quotation."
+> "Здорово! Это цитата."
 
 !!!
-Need to draw attention to something? Use an alert.
+Хотите привлечь внимание к чему-то? Используйте предупреждение.
 !!!
 ```
 
-At a very basic level, to create a new page for your Retype project, do the following:
+На очень простом уровне, чтобы создать новую страницу для вашего проекта Retype, выполните следующее:
 
-1. Make a `readme.md` file
-2. Add a `# title`
-3. Start writing
+1. Создайте файл `readme.md`
+2. Добавьте заголовок с помощью `# Заголовок`
+3. Начните писать
 
-### Home page
+### Главная страница
 
-Your project should include a default file (`index.md`, `default.md`, `readme.md`, or `welcome.md`) within the root of the project. If there is a default file within the root folder, Retype will use that page as your home page. Clicking on the top-left logo or title will navigate to the home page.
+Ваш проект должен включать файл по умолчанию (`index.md`, `default.md`, `readme.md` или `welcome.md`) в корне проекта. Если в корневой папке есть файл по умолчанию, Reborn будет использовать эту страницу в качестве главной. Нажатие на логотип или заголовок в верхнем левом углу будет переходить на главную страницу.
 
-Outside of the root of your project, adding a file with the exact same name as folder, will also act as a default page for that folder. For instance, adding `/guides/guides.md` is equivalent to `/guides/index.md`.
+Вне корня вашего проекта добавление файла с точно таким же именем, как у папки, также будет действовать как страница по умолчанию для этой папки. Например, добавление `/guides/guides.md` эквивалентно `/guides/index.md`.
 
-The default files can be used inside any folder of the project. Given the following folder and file structure, where `Guides` is a folder...
+Файлы по умолчанию можно использовать в любой папке проекта. Учитывая следующую структуру папок и файлов, где `Guides` - это папка...
 
 ```
 |-- Guides
@@ -79,50 +79,48 @@ The default files can be used inside any folder of the project. Given the follow
 |-- readme.md
 ```
 
-...Retype will create three pages in your website and the pages will be available at the following locations:
+...Retype создаст три страницы на вашем веб-сайте, и страницы будут доступны по следующим адресам:
 
 1. `/`
 2. `/guides/`
 3. `/guides/getting-started/`
 
 !!!
-If your home page is the Retype generated **Welcome** page, add a default page to the root of your project. The home page file can be named `index.md`, `default.md`, `readme.md`, or `welcome.md`.
+Если ваша главная страница - это сгенерированная Retype страница **Welcome**, добавьте страницу по умолчанию в корень вашего проекта. Файл главной страницы может называться `index.md`, `default.md`, `readme.md` или `welcome.md`.
 !!!
 
----
+## Компоненты
 
-## Components
+В дополнение к стандартным возможностям Markdown, Retype включает множество пользовательских [компонентов](/components/readme.md), чтобы вы могли легко добавлять дополнительные [!badge :gem: элементы :gem:] на свой документ.
 
-In addition to the standard Markdown options, Retype includes many custom [components](/components/readme.md) so you can easily add extra [!badge :gem: flair :gem:] to your document.
+Наиболее часто используемыми компонентами Retype являются [Alert](/components/alert.md) и [Tab](/components/tab.md):
 
-The most commonly used Retype components include [Alert](/components/alert.md) and [Tab](/components/tab.md):
-
-### Alert
+### Предупреждение
 
 !!!
-This is an Alert
+Это предупреждение
 !!!
 
-~~~ Sample [Alert](/components/alert.md) component
+~~~ Пример компонента [Предупреждение](/components/alert.md)
 !!!
-This is an Alert
+Это предупреждение
 !!!
 ~~~
 
-### Tab
+### Вкладка
 
-+++ Tab 1
-This is Tab 1
-+++ Tab 2
-This is another Tab
++++ Вкладка 1
+Это Вкладка 1
++++ Вкладка 2
+Это еще одна Вкладка
 +++
 
-~~~ Sample [Tab](/components/tab.md) component
-+++ Tab 1
-This is Tab 1
-+++ Tab 2
-This is another Tab
+~~~ Пример компонента [Вкладка](/components/tab.md)
++++ Вкладка 1
+Это Вкладка 1
++++ Вкладка 2
+Это еще одна Вкладка
 +++
 ~~~
 
-[!ref See all components](/components/readme.md)
+[!ref Посмотреть все компоненты](/components/readme.md)
