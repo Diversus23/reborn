@@ -79,6 +79,6 @@ Features | Бесплатная | ПРОФ | КОРП
 
 Отправьте нам сообщение, используя любой из следующих способов:
 
-- [x] Email crm@softnit.ru, или
-- [x] Начните с нового [Issue](https://github.com/Diversus23/reborn/issues/), или
-- [x] Начните чат на странице с менеджером
+- [галочка] Email crm@softnit.ru, или
+- [галочка] Начните с нового [Issue](https://github.com/Diversus23/reborn/issues/), или
+- [галочка] Начните чат на странице с менеджером
